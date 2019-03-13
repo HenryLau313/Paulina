@@ -1,0 +1,14 @@
+int main()
+{
+    int i;
+    for(i=0; i < 10; i++) {
+    mrp(0,1500,5000);
+    msleep(4000);
+    mrp(0,-1500,-5000);
+    msleep(4000);
+    }
+  
+    
+    
+    return 0;
+}
